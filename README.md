@@ -30,7 +30,7 @@ For example:
 
 You can use [Wayback Machine Archiver](https://github.com/agude/wayback-machine-archiver) to submit them, like:
 
-    cat urls.txt | xargs -t -n1 archiver
+    archiver --file urls.txt
 
 Please note it's not fast because of Wayback Machine's resource constraints.
 

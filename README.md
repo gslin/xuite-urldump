@@ -10,6 +10,12 @@ This script creates all article urls so that you can submit them into Wayback Ma
 
 這隻script會產生所有文章連結，你可以用這些連結讓Wayback Machine備份網頁。
 
+## Requirement
+
+You need to install a perl module `WWW::Mechanize` first.  For example, you can install via apt in Debian/Ubuntu environment:
+
+    sudo apt install -y libwww-mechanize-perl
+
 ## Usage
 
 Syntax:

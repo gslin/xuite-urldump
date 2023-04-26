@@ -30,7 +30,7 @@ INIT {
             my $url = $link->url_abs;
 
             if ($url =~ m{^\Q${baseurl}\E/\d+$}) {
-                say "[*] Got ${url}";
+                say $url;
             }
         }
 

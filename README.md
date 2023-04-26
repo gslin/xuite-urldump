@@ -29,3 +29,7 @@ Please note it's not fast because of Wayback Machine's resource constraints.
 ## License
 
 See [LICENSE](LICENSE).
+
+## Reference
+
+* https://xuite.net/

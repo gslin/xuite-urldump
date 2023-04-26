@@ -8,6 +8,16 @@ Xuite決定在2023年8月31日14:00關閉服務，所以我們需要備份並且
 
 這隻script會產生所有文章連結，你可以用這些連結讓Wayback Machine備份網頁。
 
+## Usage
+
+Syntax:
+
+    ./xuite-urldump.pl [baseurl]
+
+For example:
+
+    ./xuite-urldump.pl blog.xuite.net/xuite.net/xuite
+
 ## License
 
 See [LICENSE](LICENSE).

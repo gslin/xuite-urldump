@@ -18,6 +18,12 @@ For example:
 
     ./xuite-urldump.pl blog.xuite.net/xuite.net/xuite
 
+## Submit to Wayback Machine
+
+You can use [https://github.com/agude/wayback-machine-archiver](Wayback Machine Archiver) to submit them, like:
+
+    cat urls.txt | xargs -t -n1 archiver
+
 ## License
 
 See [LICENSE](LICENSE).

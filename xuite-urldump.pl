@@ -25,11 +25,15 @@ INIT {
     }
 
     # Loop to last page
+    my %urls = {};
     for (my $page = 1; $page <= $lastpage; ) {
         foreach my $link ($ua->links) {
             my $url = $link->url_abs;
 
             if ($url =~ m{^\Q${baseurl}\E/\d+$}) {
+                next if defined $urls{$url};
+
+                $urls{$url} = 1;
                 say $url;
             }
         }

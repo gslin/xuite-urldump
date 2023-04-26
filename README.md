@@ -18,7 +18,7 @@ Syntax:
 
 For example:
 
-    ./xuite-urldump.pl blog.xuite.net/xuite.net/xuite
+    ./xuite-urldump.pl blog.xuite.net/xuite.net/xuite | tee urls.txt
 
 ## Submit to Wayback Machine
 
